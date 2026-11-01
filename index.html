@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f4ee">
+  <title>The Everyday Journal</title>
+  <meta name="description" content="Everyday stories, a little English, and a fresh perspective.">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="lessons.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div class="edition"><span>INDEPENDENT STORIES · EVERYDAY PERSPECTIVES</span><time id="date"></time></div>
+      <div class="masthead"><span class="issue">EST. 2026<br>THE DAILY EDITION</span><a href="./" aria-label="The Everyday Journal 홈">The Everyday Journal<span class="period">.</span></a><span class="issue right">A MOMENT TO READ.<br>A LITTLE TO DISCOVER.</span></div>
+      <nav id="topics" aria-label="기사 주제"></nav>
+    </header>
+    <main>
+      <div class="section-heading"><span>THE EVERYDAY EDIT</span><span>Small stories. Better conversations.</span></div>
+      <div class="layout">
+        <article id="article" aria-labelledby="headline">
+          <div class="eyebrow" id="category"></div>
+          <h1 id="headline"></h1>
+          <p class="dek" id="subtitle"></p>
+          <div class="byline"><span>By the Journal Editors <span class="dot">·</span> <span id="reading-time"></span></span><button id="bookmark" aria-pressed="false">☆ Save story</button></div>
+          <div class="article-art" aria-hidden="true"><span id="art-word"></span><span class="art-caption">NOTES ON EVERYDAY LIFE</span><div class="art-circle"></div><div class="art-line"></div></div>
+          <div class="reader-toolbar"><div class="mode-switch" role="group" aria-label="학습 방식"><button data-mode="script" aria-pressed="true">한국어 스크립트</button><button data-mode="question" aria-pressed="false">질문으로 연습</button></div><button id="reveal-all">영문 모두 보기 ↗</button></div>
+          <section class="question-box" aria-label="연습 질문"><span class="small-label">A QUESTION TO CONSIDER</span><p id="question-en" lang="en"></p><p id="question-ko"></p></section>
+          <p class="reader-hint" id="reader-hint">먼저 영어로 떠올려 보세요. 각 문단을 누르면 영어 예문이 펼쳐집니다.</p>
+          <div id="paragraphs"></div>
+          <section class="expressions"><span class="small-label">WORDS TO TAKE WITH YOU</span><div id="expressions"></div></section>
+          <div class="article-bottom"><button id="previous">← Previous story</button><span id="story-number"></span><button id="next">Next story →</button></div>
+        </article>
+        <aside>
+          <section class="editor-note"><span class="small-label">THE EDITOR’S NOTE</span><h2>A little reading,<br>every day.</h2><p>일상의 이야기를 나만의 영어로.<br>한 문단씩 생각하고, 펼쳐 읽어보세요.</p><div class="progress-label"><span>Read & explored</span><span id="progress-count"></span></div><progress id="progress" value="0" max="6" aria-label="영문을 열어 본 기사 수"></progress><p class="storage-note" id="storage-note">읽기 기록은 이 브라우저에 저장됩니다.</p></section>
+          <section class="story-list"><div class="sidebar-title"><h2>More to explore</h2><button id="random" aria-label="무작위 기사 선택" title="무작위 기사">↗</button></div><label class="search-label" for="search">Find a story</label><input id="search" type="search" placeholder="주제나 제목 검색" autocomplete="off"><label class="saved-filter"><input id="saved-only" type="checkbox"> 저장한 기사만 보기</label><div id="story-list"></div></section>
+          <div class="sidebar-foot">THE EVERYDAY JOURNAL<br><span>Read slowly. Think freely.</span></div>
+        </aside>
+      </div>
+    </main>
+    <footer><span>The Everyday Journal © 2026</span><span>Original practice stories · OPIc 연습용 창작 예문</span></footer>
+    <div id="status" class="sr-only" role="status" aria-live="polite"></div>
+  </div>
+</body>
+</html>
