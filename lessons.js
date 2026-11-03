@@ -275,5 +275,38 @@ window.LESSONS = [
       ["hanging out with my friends", "친구들과 어울리기"],
       ["down to the last detail", "세세한 부분까지"]
     ]
+  },
+  {
+    id: "park-walk-and-jogging",
+    topic: "Wellbeing",
+    label: "공원 산책 및 조깅 · 야외 활동 루틴",
+    art: "Park Jogging Routine",
+    title: "Staying Active with a Jogging Routine at the Local Park",
+    subtitle: "How regular walks and morning jogs in the neighborhood park help me stay healthy and relaxed.",
+    question: "What do you usually do when you go to a park, and can you share a memorable experience there?",
+    questionKo: "공원에 가면 주로 무엇을 하며, 그곳에서의 기억에 남는 경험을 공유해 주세요.",
+    paragraphs: [
+      {
+        ko: "우리 동네 근처에는 산책하기 정말 좋은 예쁜 공원이 있습니다. 아침마다 상쾌한 공기를 마시며 가볍게 걷는 사람들이 많죠.",
+        en: "There is a lovely park near my home where people love to go on a daily basis. In the morning, it's always full of people enjoying the fresh air."
+      },
+      {
+        ko: "저는 건강을 관리하고 하루를 활기차게 시작하기 위해 주말마다 공원에서 조깅을 하거나 산책을 즐기는 루틴을 가지고 있습니다.",
+        en: "My routine is to go for a walk or go jogging at the park every weekend to stay active and manage my health."
+      },
+      {
+        ko: "얼마 전에는 날씨가 너무 좋아서 평소보다 훨씬 더 멀리 공원 산책로를 따라 걸었는데, 정말 상쾌하고 기분이 좋았던 기억이 나요.",
+        en: "I remember one time last month, I went the extra mile and walked all the way around the large trail in the park, and it was a wonderful experience."
+      },
+      {
+        ko: "바쁜 일상 속에서 자연을 느끼며 재충전할 수 있는 이런 공원 방문은 요즘 저에게 무엇보다 소중한 일과입니다.",
+        en: "These days, spending time at the park to recharge my energy has truly become one of my favorite ways to spend free time."
+      }
+    ],
+    expressions: [
+      ["go for a walk", "산책하다"],
+      ["go jogging", "조깅하다"],
+      ["recharge my energy", "에너지를 재충전하다"]
+    ]
   }
 ];
