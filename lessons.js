@@ -5474,5 +5474,104 @@ window.LESSONS = [
         "한 가지 더"
       ]
     ]
+  },
+  {
+    "id": "appliance-roleplay-inquiry",
+    "topic": "Home Appliances",
+    "label": "가전 · 구매 문의 롤플레이",
+    "art": "At the appliance store.",
+    "title": "Calling a store about a refrigerator",
+    "subtitle": "Asking questions before buying a new appliance.",
+    "question": "You want to buy a refrigerator. Call a store and ask three or four questions.",
+    "questionKo": "냉장고 구매를 위해 매장에 전화하고 질문 3~4개를 하세요.",
+    "paragraphs": [
+      {
+        "ko": "안녕하세요. 새 냉장고를 구매하려고 전화드렸어요. 몇 가지 질문이 있어요.",
+        "en": "Hi, I am calling because I am interested in buying a new refrigerator. I have a few questions."
+      },
+      {
+        "ko": "먼저 3인 가족에게 적합한 모델이 있나요? 가격은 얼마인가요?",
+        "en": "First, do you have any models suitable for a family of three? How much do they cost?"
+      },
+      {
+        "ko": "에너지 효율이 좋은 제품을 찾고 있어요. 추천해 주실 수 있나요?",
+        "en": "I am looking for an energy-efficient model. Could you recommend one?"
+      },
+      {
+        "ko": "마지막으로 배송과 설치는 무료인가요? 보증 기간은 얼마나 되나요? 감사합니다.",
+        "en": "And one more thing. Are delivery and installation free? How long is the warranty? Thank you for your help."
+      }
+    ],
+    "expressions": [
+      ["energy-efficient model", "에너지 효율이 좋은 모델"],
+      ["delivery and installation", "배송과 설치"],
+      ["warranty", "보증 기간"]
+    ]
+  },
+  {
+    "id": "appliance-roleplay-repair",
+    "topic": "Home Appliances",
+    "label": "가전 · 수리 요청 롤플레이",
+    "art": "On the phone.",
+    "title": "Requesting a repair for a broken washer",
+    "subtitle": "Explaining the problem and arranging service.",
+    "question": "Your washing machine is broken. Call customer service, explain the problem, and ask for help.",
+    "questionKo": "세탁기가 고장 났습니다. 고객센터에 전화해 문제를 설명하고 도움을 요청하세요.",
+    "paragraphs": [
+      {
+        "ko": "안녕하세요. 저희 집 세탁기에 문제가 있어서 전화드렸어요.",
+        "en": "Hi, I am calling because there is a problem with my washing machine."
+      },
+      {
+        "ko": "어제부터 전원이 켜지지만 세탁이 시작되지 않아요. 전원을 다시 켜 봤지만 그대로예요.",
+        "en": "Since yesterday, it has been turning on, but the wash cycle will not start. I tried restarting it, but nothing changed."
+      },
+      {
+        "ko": "기사님이 방문해서 확인해 주실 수 있을까요? 가장 빠른 방문 일정이 언제인가요?",
+        "en": "Could you send a technician to check it? What is the earliest available appointment?"
+      },
+      {
+        "ko": "그리고 보증 기간 안에 있는 제품이면 수리비가 무료인지도 알려주세요. 감사합니다.",
+        "en": "Also, could you tell me if the repair is free while the appliance is under warranty? Thank you."
+      }
+    ],
+    "expressions": [
+      ["wash cycle", "세탁 코스"],
+      ["send a technician", "기사를 보내다"],
+      ["under warranty", "보증 기간 내에"]
+    ]
+  },
+  {
+    "id": "appliance-roleplay-delivery",
+    "topic": "Home Appliances",
+    "label": "가전 · 배송 문제 롤플레이",
+    "art": "On the phone.",
+    "title": "When an appliance delivery is delayed",
+    "subtitle": "Finding a solution to a missed delivery date.",
+    "question": "You ordered an appliance, but it has not arrived. Call the store and suggest solutions.",
+    "questionKo": "주문한 가전제품이 도착하지 않았습니다. 매장에 전화해 해결 방법을 제시하세요.",
+    "paragraphs": [
+      {
+        "ko": "안녕하세요. 지난주에 전자레인지를 주문했는데 배송 문제로 전화드렸어요.",
+        "en": "Hi, I ordered a microwave last week, and I am calling about a delivery problem."
+      },
+      {
+        "ko": "어제 도착할 예정이었는데 아직 받지 못했어요. 배송 조회 정보도 업데이트되지 않았어요.",
+        "en": "It was supposed to arrive yesterday, but I still have not received it. The tracking information has not been updated either."
+      },
+      {
+        "ko": "배송 상태를 확인해 주실 수 있을까요? 가능하면 이번 주 안에 받고 싶어요.",
+        "en": "Could you please check the delivery status? If possible, I would like to receive it by the end of this week."
+      },
+      {
+        "ko": "그게 어렵다면 주문을 취소하고 환불받을 수 있을까요? 도움 주셔서 감사합니다.",
+        "en": "If that is not possible, could I cancel the order and get a refund? Thank you for your help."
+      }
+    ],
+    "expressions": [
+      ["be supposed to arrive", "도착할 예정이었다"],
+      ["tracking information", "배송 조회 정보"],
+      ["get a refund", "환불받다"]
+    ]
   }
 ];
