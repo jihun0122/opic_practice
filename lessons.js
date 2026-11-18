@@ -5573,5 +5573,368 @@ window.LESSONS = [
       ["tracking information", "배송 조회 정보"],
       ["get a refund", "환불받다"]
     ]
+  },
+  {
+    "id": "work-new-project",
+    "topic": "Work Roleplay",
+    "label": "새 프로젝트 문의",
+    "art": "A new project.",
+    "title": "Starting a new project",
+    "subtitle": "프로젝트 목표·일정·담당자·요구사항 질문",
+    "question": "You are starting a new project. Call your manager and ask three or four questions.",
+    "questionKo": "새 프로젝트를 시작합니다. 상사에게 전화해 서너 가지 질문을 하세요.",
+    "paragraphs": [
+      {
+        "ko": "안녕하세요, 잠깐 시간 있으세요? 새 프로젝트에 대해 몇 가지 질문이 있어서 연락드렸습니다.",
+        "en": "Hi, do you have a minute? I’m calling because I have a few questions about the new project."
+      },
+      {
+        "ko": "먼저 이 프로젝트의 주요 목표가 무엇인지 알려주실 수 있나요? 그리고 마감일은 언제인가요?",
+        "en": "First, could you tell me what the main goal of the project is? Also, when is the deadline?"
+      },
+      {
+        "ko": "제가 누구와 함께 일하게 되는지 알고 싶습니다. 또 제가 알아야 할 특별한 요구사항이 있을까요?",
+        "en": "I’d like to know who I’ll be working with. And one more thing. Are there any specific requirements I should know about?"
+      },
+      {
+        "ko": "시작하기 전에 모든 내용을 제대로 이해하고 싶습니다. 도와주셔서 감사합니다!",
+        "en": "I want to make sure I understand everything before getting started. Thanks for your help!"
+      }
+    ],
+    "expressions": [
+      ["Do you have a minute?", "잠깐 시간 있으세요?"],
+      ["When is the deadline?", "마감일은 언제인가요?"],
+      ["specific requirements", "구체적인 요구사항"]
+    ]
+  },
+  {
+    "id": "work-data-request",
+    "topic": "Work Roleplay",
+    "label": "동료에게 자료 요청",
+    "art": "Equipment data.",
+    "title": "Asking a coworker for data",
+    "subtitle": "데이터 위치·최신 여부·문제점·문서 요청",
+    "question": "You need information for your project. Call a coworker and ask questions.",
+    "questionKo": "프로젝트에 필요한 정보를 동료에게 전화로 요청하세요.",
+    "paragraphs": [
+      {
+        "ko": "안녕하세요, 잠깐 시간 있어요? AI 프로젝트를 진행 중인데 설비 데이터에 대한 정보가 필요해요.",
+        "en": "Hey, do you have a minute? I’m working on an AI project, and I need some information about the equipment data."
+      },
+      {
+        "ko": "먼저 최신 데이터를 어디서 찾을 수 있는지 아세요? 최근에 업데이트됐나요?",
+        "en": "First, do you know where I can find the latest data? Also, has the data been updated recently?"
+      },
+      {
+        "ko": "제가 알아야 할 알려진 문제가 있는지도 궁금해요. 시간 되실 때 관련 문서를 보내주실 수 있나요?",
+        "en": "I’m wondering if there are any known issues I should be aware of. And could you send me the related documents when you have time?"
+      },
+      {
+        "ko": "정확한 정보를 사용하고 싶어서요. 정말 고맙습니다!",
+        "en": "I want to make sure I’m using the correct information. Thanks a lot. I really appreciate your help!"
+      }
+    ],
+    "expressions": [
+      ["the latest data", "최신 데이터"],
+      ["known issues", "알려진 문제"],
+      ["I really appreciate your help.", "도와주셔서 정말 감사합니다."]
+    ]
+  },
+  {
+    "id": "work-project-delay",
+    "topic": "Work Roleplay",
+    "label": "프로젝트 일정 지연",
+    "art": "Behind schedule.",
+    "title": "Getting a project back on track",
+    "subtitle": "일정 지연 설명과 두 가지 해결책 제안",
+    "question": "Your project is behind schedule. Call your manager, explain the problem, and suggest solutions.",
+    "questionKo": "프로젝트가 지연되었습니다. 상사에게 사유를 설명하고 해결책을 제안하세요.",
+    "paragraphs": [
+      {
+        "ko": "안녕하세요. 프로젝트에 작은 문제가 있어서 연락드렸습니다. 안타깝게도 일정이 조금 지연되고 있습니다.",
+        "en": "Hi, I’m calling because I have a small problem with our project. Unfortunately, we’re running a little behind schedule."
+      },
+      {
+        "ko": "데이터에서 예상치 못한 문제가 발견되어 해결하는 데 생각보다 시간이 오래 걸리고 있습니다. 지연되어 죄송합니다.",
+        "en": "We found some unexpected issues with the data, and it’s taking longer than we expected to fix them. I’m really sorry about the delay."
+      },
+      {
+        "ko": "하지만 몇 가지 생각이 있습니다. 다른 팀의 도움을 받거나, 가장 중요한 기능부터 완료하고 나머지는 나중에 마무리할 수 있습니다.",
+        "en": "But I have a couple of ideas. First, we could get some extra help from another team. Or, we could focus on the most important features and finish the remaining work later."
+      },
+      {
+        "ko": "어떻게 생각하세요? 조언해 주시면 감사하겠습니다. 일정을 다시 정상화하도록 최선을 다하겠습니다.",
+        "en": "What do you think? I’d really appreciate your advice. I’ll do my best to get everything back on track."
+      }
+    ],
+    "expressions": [
+      ["running behind schedule", "일정이 지연되는"],
+      ["a couple of ideas", "몇 가지 방안"],
+      ["get back on track", "다시 정상 궤도에 오르다"]
+    ]
+  },
+  {
+    "id": "work-platform-issue",
+    "topic": "Work Roleplay",
+    "label": "AI 플랫폼 오류",
+    "art": "System issue.",
+    "title": "Troubleshooting an AI platform",
+    "subtitle": "플랫폼 결과 이상과 점검·복구 대안",
+    "question": "The AI platform you developed is not working properly. Explain the problem to a coworker and suggest solutions.",
+    "questionKo": "개발한 AI 플랫폼이 제대로 작동하지 않습니다. 동료에게 설명하고 해결책을 제안하세요.",
+    "paragraphs": [
+      {
+        "ko": "안녕하세요. 우리 AI 플랫폼에 문제가 있는 것 같아요. 엔지니어 몇 분이 시스템이 제대로 작동하지 않는다고 하셨어요.",
+        "en": "Hey, I think we have a problem with our AI platform. Some engineers told me that the system isn’t working properly."
+      },
+      {
+        "ko": "결과가 예상만큼 정확하지 않은 것 같아요. 아직 정확한 원인은 모르겠습니다.",
+        "en": "It seems like the results are not as accurate as they should be. I’m not exactly sure what’s causing the problem yet."
+      },
+      {
+        "ko": "우선 데이터를 확인해 보면 좋겠어요. 최근 업데이트에 문제가 있을 수도 있어요.",
+        "en": "But I think we should check the data first. Maybe there’s an issue with the latest update."
+      },
+      {
+        "ko": "그것으로 해결되지 않으면 이전 버전으로 되돌리는 방법도 있어요. 함께 확인하고 최대한 빨리 고쳐 봅시다.",
+        "en": "If that doesn’t solve the problem, we could go back to the previous version. What do you think? Let’s look into it together and try to fix it as soon as possible."
+      }
+    ],
+    "expressions": [
+      ["not working properly", "제대로 작동하지 않는"],
+      ["check the data first", "먼저 데이터를 확인하다"],
+      ["go back to the previous version", "이전 버전으로 되돌리다"]
+    ]
+  },
+  {
+    "id": "work-reschedule-meeting",
+    "topic": "Work Roleplay",
+    "label": "회의 일정 변경",
+    "art": "A missed meeting.",
+    "title": "Rescheduling a project meeting",
+    "subtitle": "긴급 업무로 회의에 참석하지 못할 때",
+    "question": "You cannot attend an important meeting because of an urgent problem at work. Call a coworker and suggest alternatives.",
+    "questionKo": "긴급 업무로 회의에 참석할 수 없습니다. 동료에게 연락해 대안을 제시하세요.",
+    "paragraphs": [
+      {
+        "ko": "안녕하세요. 미안하지만 좋지 않은 소식이 있어요. 오늘 오후에 잡혀 있는 프로젝트 회의 기억하시죠?",
+        "en": "Hey, I’m really sorry, but I have some bad news. Remember the project meeting we scheduled for this afternoon?"
+      },
+      {
+        "ko": "갑자기 급한 업무가 생겼어요. 시스템에 문제가 있어서 바로 처리해야 해요. 그래서 회의에 참석하기 어려울 것 같아요.",
+        "en": "Unfortunately, something urgent came up at work. There’s a problem with our system, and I need to take care of it right away. So, I don’t think I can make it to the meeting."
+      },
+      {
+        "ko": "혹시 회의를 내일 아침으로 옮길 수 있을까요? 어렵다면 회의 후에 회의록을 공유해 주시겠어요?",
+        "en": "Would it be possible to move it to tomorrow morning? Or, if that doesn’t work, could you share the meeting notes with me afterward?"
+      },
+      {
+        "ko": "갑자기 일정을 바꾸게 되어 정말 미안해요. 이해해 줘서 고마워요.",
+        "en": "I’m really sorry about the last-minute change. Thanks for understanding."
+      }
+    ],
+    "expressions": [
+      ["something urgent came up", "급한 일이 생겼다"],
+      ["make it to the meeting", "회의에 참석하다"],
+      ["meeting notes", "회의록"]
+    ]
+  },
+  {
+    "id": "work-ask-for-help",
+    "topic": "Work Roleplay",
+    "label": "동료에게 도움 요청",
+    "art": "A helping hand.",
+    "title": "Asking for technical help",
+    "subtitle": "어려운 플랫폼 개발 업무에 도움 요청",
+    "question": "You need help with a difficult task. Ask your coworker for assistance.",
+    "questionKo": "어려운 업무를 해결하려고 동료에게 도움을 요청하세요.",
+    "paragraphs": [
+      {
+        "ko": "안녕하세요, 잠깐 시간 있어요? AI 플랫폼의 새 기능을 개발 중인데 문제가 좀 있어요.",
+        "en": "Hey, do you have a minute? I’m working on a new feature for our AI platform, but I’m having some trouble."
+      },
+      {
+        "ko": "한동안 고쳐 보려고 했는데 아직 해결 방법을 찾지 못했어요.",
+        "en": "I’ve been trying to fix the problem for a while, but I haven’t figured it out yet."
+      },
+      {
+        "ko": "혹시 같이 한번 살펴봐 주실 수 있을까요? 제가 놓친 부분을 발견하도록 도와주실 수 있을 것 같아요.",
+        "en": "I was wondering if you could take a look at it with me. Maybe you could help me find what I’m missing."
+      },
+      {
+        "ko": "지금 바쁘시면 오늘 오후에 이야기해도 좋아요. 바쁘신 거 알지만 도와주시면 정말 감사하겠습니다.",
+        "en": "If you’re busy right now, we could talk about it later this afternoon. I know you have a lot on your plate, so I really appreciate your help."
+      }
+    ],
+    "expressions": [
+      ["I’m having some trouble.", "문제가 좀 있어요."],
+      ["take a look at it", "그것을 살펴보다"],
+      ["have a lot on your plate", "할 일이 많다"]
+    ]
+  },
+  {
+    "id": "work-onboard-coworker",
+    "topic": "Work Roleplay",
+    "label": "신입 팀원 안내",
+    "art": "Welcome aboard.",
+    "title": "Welcoming a new teammate",
+    "subtitle": "새 팀원에게 AI 플랫폼 프로젝트 소개",
+    "question": "A coworker has joined your team. Explain the AI project and give some advice.",
+    "questionKo": "새 팀원에게 AI 프로젝트를 소개하고 조언하세요.",
+    "paragraphs": [
+      {
+        "ko": "안녕하세요, 팀에 오신 걸 환영해요! 저희 프로젝트를 간단히 소개해 드릴게요.",
+        "en": "Hey, welcome to the team! Let me tell you a little about our project."
+      },
+      {
+        "ko": "저희는 엔지니어들이 설비 데이터를 더 효율적으로 분석하도록 AI 기반 플랫폼을 개발하고 있어요. 반복 업무를 줄이고 일을 쉽게 만드는 것이 주요 목표예요.",
+        "en": "We’re developing an AI-based platform to help engineers analyze equipment data more efficiently. The main goal is to reduce repetitive tasks and make their work easier."
+      },
+      {
+        "ko": "처음엔 시스템이 복잡해 보일 수 있어요. 하지만 걱정하지 마세요. 금방 익숙해질 거예요.",
+        "en": "At first, the system might seem a little complicated. But don’t worry. You’ll get used to it."
+      },
+      {
+        "ko": "기본 기능과 예제부터 살펴보시는 걸 추천해요. 궁금한 점이 있으면 언제든 질문하세요. 함께 일하게 되어 기대됩니다!",
+        "en": "I’d recommend starting with the basic features and looking at some examples. And if you have any questions, feel free to ask me anytime. I’m looking forward to working with you!"
+      }
+    ],
+    "expressions": [
+      ["welcome to the team", "팀에 온 걸 환영해요"],
+      ["get used to it", "익숙해지다"],
+      ["feel free to ask", "부담 없이 질문하다"]
+    ]
+  },
+  {
+    "id": "work-demo-meeting",
+    "topic": "Work Roleplay",
+    "label": "플랫폼 시연 일정",
+    "art": "A live demo.",
+    "title": "Arranging a platform demonstration",
+    "subtitle": "AI 플랫폼 시연 일정·참석자 조율",
+    "question": "Call your manager to arrange a meeting to demonstrate your AI platform.",
+    "questionKo": "AI 플랫폼 시연을 위한 회의를 상사에게 요청하세요.",
+    "paragraphs": [
+      {
+        "ko": "안녕하세요. 새 AI 플랫폼을 시연할 회의를 잡고 싶어 연락드렸습니다.",
+        "en": "Hi, do you have a minute? I’d like to arrange a meeting to demonstrate our new AI platform."
+      },
+      {
+        "ko": "꽤 오랫동안 개발해 왔고 이제 시연할 준비가 된 것 같습니다. 다음 주 중에 시간 괜찮으실까요?",
+        "en": "We’ve been working on it for a while, and I think it’s ready for a demonstration. Would you be available sometime next week?"
+      },
+      {
+        "ko": "엔지니어들이 시간을 절약하고 더 효율적으로 일하는 데 플랫폼이 어떻게 도움이 되는지 보여 드리고 싶습니다. 시연은 약 30분 정도 걸릴 것 같습니다.",
+        "en": "I’d like to show you how the platform can help engineers save time and work more efficiently. The demonstration should take about thirty minutes."
+      },
+      {
+        "ko": "실제 사용할 엔지니어 몇 분도 초대해도 될까요? 그분들의 피드백이 도움이 될 것 같습니다. 편하신 시간을 알려 주세요.",
+        "en": "Also, would it be okay to invite a few engineers who might use the system? I think their feedback would be really helpful. Please let me know what time works best for you."
+      }
+    ],
+    "expressions": [
+      ["arrange a meeting", "회의 일정을 잡다"],
+      ["demonstrate the platform", "플랫폼을 시연하다"],
+      ["what time works best for you", "어느 시간이 가장 편하신가요"]
+    ]
+  },
+  {
+    "id": "work-award-news",
+    "topic": "Work Roleplay",
+    "label": "프로젝트 수상 축하",
+    "art": "Good news.",
+    "title": "Sharing an award with the team",
+    "subtitle": "AI 프로젝트 수상 소식을 동료에게 알리기",
+    "question": "Your team has won an award. Call a coworker and share the good news.",
+    "questionKo": "팀이 상을 받았습니다. 동료에게 소식을 전하고 축하하세요.",
+    "paragraphs": [
+      {
+        "ko": "안녕하세요, 정말 좋은 소식이 있어요! 우리가 진행해 온 AI 프로젝트 기억하시죠? 그 프로젝트가 상을 받았어요!",
+        "en": "Hey, I’ve got some great news! Remember the AI project we’ve been working on? Well, our project just won an award!"
+      },
+      {
+        "ko": "플랫폼 개발에 많은 시간을 들였기 때문에 정말 기뻐요. 중간에 어려움도 많았지만 노력이 드디어 결실을 맺었네요.",
+        "en": "I’m so excited because we spent a lot of time developing the platform. It wasn’t easy, and we faced a lot of challenges along the way. But all our hard work finally paid off."
+      },
+      {
+        "ko": "무엇보다 엔지니어들이 실제 업무에서 플랫폼을 사용하는 모습을 보니 더 기뻐요. 우리의 일이 실제 도움이 되고 있다는 게 좋네요.",
+        "en": "What makes me even happier is seeing engineers actually use our platform in their daily work. It’s great to know that we’re making a real difference."
+      },
+      {
+        "ko": "꼭 축하해야겠어요! 이번 금요일에 같이 저녁 먹는 건 어때요?",
+        "en": "We should definitely celebrate! How about having dinner together this Friday?"
+      }
+    ],
+    "expressions": [
+      ["won an award", "상을 받았다"],
+      ["hard work paid off", "노력이 결실을 맺었다"],
+      ["make a real difference", "실질적인 변화를 만들다"]
+    ]
+  },
+  {
+    "id": "work-wrong-file",
+    "topic": "Work Roleplay",
+    "label": "잘못된 파일 전달",
+    "art": "Wrong attachment.",
+    "title": "Correcting a wrong attachment",
+    "subtitle": "상사에게 구버전 보고서를 보낸 실수",
+    "question": "You accidentally sent the wrong file to your manager. Explain the situation and offer solutions.",
+    "questionKo": "상사에게 잘못된 파일을 보냈습니다. 상황을 설명하고 해결책을 제안하세요.",
+    "paragraphs": [
+      {
+        "ko": "안녕하세요. 정말 죄송한데 제가 잘못된 파일을 보낸 걸 방금 알았습니다.",
+        "en": "Hi, I’m really sorry, but I just realized that I sent you the wrong file."
+      },
+      {
+        "ko": "최신 프로젝트 보고서를 보내야 했는데 실수로 이전 버전을 첨부했습니다. 혼란을 드려 죄송합니다.",
+        "en": "I was supposed to send you the latest project report, but I accidentally attached an older version. I’m really sorry about the confusion."
+      },
+      {
+        "ko": "정확한 파일은 이미 찾았고 바로 다시 보내 드릴 수 있습니다. 앞서 보낸 이메일은 무시해 주시겠어요?",
+        "en": "I’ve already found the correct file, and I can send it to you right away. Could you please ignore my previous email?"
+      },
+      {
+        "ko": "새 파일을 보내기 전에 다시 확인하겠습니다. 같은 실수가 반복되지 않도록 하겠습니다. 이해해 주셔서 감사합니다.",
+        "en": "I’ll also double-check everything before sending the new one. I’ll make sure it doesn’t happen again. Thank you for understanding."
+      }
+    ],
+    "expressions": [
+      ["accidentally attached", "실수로 첨부했다"],
+      ["ignore my previous email", "이전 이메일은 무시해 주세요"],
+      ["double-check everything", "모든 것을 다시 확인하다"]
+    ]
+  },
+  {
+    "id": "work-more-time",
+    "topic": "Work Roleplay",
+    "label": "업무 기한 연장 요청",
+    "art": "More time needed.",
+    "title": "Negotiating a realistic deadline",
+    "subtitle": "내일까지 끝내기 어려운 업무의 대안 제시",
+    "question": "A coworker asks you to finish a task by tomorrow, but you need more time. Explain and suggest alternatives.",
+    "questionKo": "내일까지 업무를 완료하기 어렵습니다. 동료에게 설명하고 대안을 제시하세요.",
+    "paragraphs": [
+      {
+        "ko": "안녕하세요. 내일까지 마무리해 달라고 하신 업무에 관해 이야기하고 싶어요. 진행 중인데 생각보다 시간이 오래 걸리고 있어요.",
+        "en": "Hey, I wanted to talk to you about the task you asked me to finish by tomorrow. I’ve been working on it, but it’s taking longer than I expected."
+      },
+      {
+        "ko": "데이터가 생각보다 복잡해서 내일까지 전부 끝내기는 어려울 것 같아요.",
+        "en": "The data is more complicated than I thought. I’m afraid I won’t be able to finish everything by tomorrow."
+      },
+      {
+        "ko": "하지만 몇 가지 방법이 있어요. 중요한 부분을 먼저 완료해 내일 보내고, 나머지는 금요일까지 마무리할 수 있어요.",
+        "en": "But I have a couple of ideas. I could finish the most important part first and send it to you tomorrow. Then, I could complete the rest by Friday."
+      },
+      {
+        "ko": "정말 급하다면 다른 분께 도움을 요청할 수도 있어요. 어떻게 생각하세요? 지연되어 미안하고 이해해 줘서 고마워요.",
+        "en": "Or, if it’s really urgent, maybe we could ask someone else to help. What do you think? I’m sorry about the delay, and I appreciate your understanding."
+      }
+    ],
+    "expressions": [
+      ["taking longer than I expected", "예상보다 오래 걸리는"],
+      ["finish the most important part first", "중요한 부분을 먼저 완료하다"],
+      ["I appreciate your understanding", "이해해 주셔서 감사합니다"]
+    ]
   }
 ];
